@@ -1,25 +1,6 @@
 
-function frame(){
-
-}
-
 function preload(){
-   picto=document.getElementById("fracet");
-   if (picto=="1"){
-      egami=loadImage("frame1.png");
-   }
-   if (picto=="2"){
-      egami=loadImage("frame2.png");
-   }
-   if (picto=="3"){
-      egami=loadImage("frame3.png");
-   }
-   if (picto=="4"){
-      egami=loadImage("frame4.png");
-   }
-   if (picto=="5"){
-      egami=loadImage("frame5.png");
-   }
+egami=loadImage("frame2.png");
 }
 
 function setup(){
